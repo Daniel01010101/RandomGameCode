@@ -298,10 +298,12 @@ building barracks
                 recruit "egyptian nubian spearmen"  0  requires factions { egyptian, } 
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
-                recruit "greek hoplite"  0  requires factions { greek, } 
+                recruit "greek hoplite"  0  requires factions { greek, }
+				recruit "greek hypaspists"  0  requires factions { greek, }
                 recruit "roman city militia"  0  requires factions { roman, } 
                 recruit "roman hastati"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { roman, }  and marian_reforms 
+                recruit "roman infantry auxillias"  0  requires factions { roman, }  and marian_reforms 
             }
             construction  3 
             cost  1200 
@@ -341,11 +343,13 @@ building barracks
                 recruit "egyptian nile infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, } 
-                recruit "greek hoplite"  0  requires factions { greek, } 
-                recruit "greek hoplite elite"  0  requires factions { greek, } 
+                recruit "greek hoplite"  0  requires factions { greek, }
+				recruit "greek hypaspists"  0  requires factions { greek, }
+                recruit "greek hoplite elites"  0  requires factions { greek, } 
                 recruit "roman city militia"  0  requires factions { roman, } 
                 recruit "roman hastati"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { roman, }  and marian_reforms 
+				recruit "roman infantry auxillias"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman legionary cohort i"  0  requires factions { roman, }  and marian_reforms 
             }
@@ -391,12 +395,15 @@ building barracks
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian elite guards"  0  requires factions { egyptian, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, }                
-                recruit "greek hoplite"  1  requires factions { greek, }                
-                recruit "greek hoplite elite"  0  requires factions { greek, }                
+                recruit "greek hoplite"  1  requires factions { greek, }
+				recruit "greek hypaspists"  1  requires factions { greek, }
+                recruit "greek hoplite elites"  0  requires factions { greek, }
+				recruit "greek hoplite champion"  0  requires factions { greek, } 
                 recruit "greek hoplite spartan"  0  requires factions { greek, }  and hidden_resource sparta             
                 recruit "roman city militia"  0  requires factions { roman, } 
                 recruit "roman hastati"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { roman, }  and marian_reforms 
+				recruit "roman infantry auxillias"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman legionary cohort i"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman legionary first cohort i"  0  requires factions { roman, }  and hidden_resource rome and marian_reforms 
@@ -412,7 +419,7 @@ building barracks
                 royal_barracks
             }
         }
-        royal_barracks requires factions { seleucid, roman, } 
+        royal_barracks requires factions { seleucid, roman, greek, } 
         {
             capability
             {
@@ -446,12 +453,16 @@ building barracks
                 recruit "egyptian infantry"  0  requires factions { egyptian, } 
                 recruit "egyptian elite guards"  0  requires factions { egyptian, } 
                 recruit "greek hoplite militia"  0  requires factions { greek, }                
-                recruit "greek hoplite"  1  requires factions { greek, }                
-                recruit "greek hoplite elite"  0  requires factions { greek, }               
-                recruit "greek hoplite spartan"  0  requires factions { greek, }  and hidden_resource sparta                
+                recruit "greek hoplite"  1  requires factions { greek, }
+				recruit "greek hypaspists"  1  requires factions { greek, }
+                recruit "greek hoplite elites"  1  requires factions { greek, }
+				recruit "greek hoplite champion"  0  requires factions { greek, }
+				recruit "greek hoplite hero"  0  requires factions { greek, }
+                recruit "greek hoplite spartan"  1  requires factions { greek, }  and hidden_resource sparta                
                 recruit "roman city militia"  0  requires factions { roman, } 
                 recruit "roman hastati"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman infantry auxillia"  0  requires factions { roman, }  and marian_reforms 
+				recruit "roman infantry auxillias"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman princeps"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman legionary cohort i"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman legionary first cohort i"  0  requires factions { roman, }  and hidden_resource rome and marian_reforms 
@@ -485,11 +496,6 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "carthaginian cavalry"  0  requires factions { carthage, } 
                 recruit "numidian cavalry"  0  requires factions { numidia, } 
                 recruit "east cavalry"  0  requires factions { pontus, } 
@@ -498,7 +504,6 @@ building equestrian
                 recruit "greek cavalry"  0  requires factions { greek, } 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
-                recruit "roman wardogs"  0  requires factions { roman, } 
             }
             construction  3 
             cost  1200 
@@ -516,11 +521,6 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -542,7 +542,6 @@ building equestrian
                 recruit "roman cavalry auxillia"  0  requires factions { roman, } 
                 recruit "roman light cavalry"  0  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
-                recruit "roman wardogs"  0  requires factions { roman, } 
             }
             construction  4 
             cost  2400 
@@ -560,11 +559,6 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -587,14 +581,12 @@ building equestrian
                 recruit "egyptian cleruch"  0  requires factions { egyptian, } 
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels                
                 recruit "greek cavalry"  0  requires factions { greek, } 
-                recruit "greek medium cavalry"  0  requires factions { greek, }                                                                 
-                recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
+                recruit "greek medium cavalry"  0  requires factions { greek, }
+				recruit "greek elite cavalry"  0  requires factions { greek, }
                 recruit "roman cavalry auxillia"  0  requires factions { roman, } 
                 recruit "roman light cavalry"  1  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { roman, }  and marian_reforms 
-                recruit "roman wardogs"  0  requires factions { roman, } 
-                recruit "roman pigs"  0  requires factions { roman, } 
                 stage_races 1 requires factions { roman,}
             }
             construction  6 
@@ -613,11 +605,6 @@ building equestrian
                 recruit "barb cavalry german"  0  requires factions { germans, } 
                 recruit "barb cavalry dacian"  0  requires factions { dacia, } 
                 recruit "barb cavalry scythian"  0  requires factions { scythia, } 
-                recruit "barb wardogs briton"  0  requires factions {  britons, } 
-                recruit "barb wardogs dacian"  0  requires factions { dacia, } 
-                recruit "barb wardogs gaul"  0  requires factions { gauls, } 
-                recruit "barb wardogs german"  0  requires factions { germans, } 
-                recruit "barb wardogs scythian"  0  requires factions { scythia, } 
                 recruit "barb noble cavalry gaul"  0  requires factions { gauls, } 
                 recruit "barb noble cavalry german"  0  requires factions { germans, } 
                 recruit "barb noble cavalry dacian"  0  requires factions { dacia, } 
@@ -642,16 +629,14 @@ building equestrian
                 recruit "egyptian nubian cavalry"  0  requires factions { egyptian, } 
                 recruit "egyptian cleruch"  0  requires factions { egyptian, } 
                 recruit "egyptian bedouin"  0  requires factions { egyptian, }  and resource camels                
-                recruit "greek cavalry"  0  requires factions { greek, } 
-                recruit "greek medium cavalry"  0  requires factions { greek, }                                
-                recruit "greek incendiary pigs"  0  requires factions { greek_cities, } 
+                recruit "greek cavalry"  1  requires factions { greek, } 
+                recruit "greek medium cavalry"  1  requires factions { greek, }
+				recruit "greek elite cavalry"  0  requires factions { greek, }
                 recruit "roman cavalry auxillia"  0  requires factions { roman, } 
                 recruit "roman light cavalry"  2  requires factions { roman, }  and not marian_reforms 
                 recruit "roman medium cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman heavy cavalry"  0  requires factions { roman, }  and marian_reforms 
                 recruit "roman praetorian cavalry"  0  requires factions { roman, }  and marian_reforms 
-                recruit "roman wardogs"  0  requires factions { roman, } 
-                recruit "roman pigs"  0  requires factions { roman, } 
                 stage_races 2 requires factions { roman,}
             }
             construction  7 
@@ -1111,7 +1096,7 @@ building port_buildings
                 recruit "naval biremes"  0  requires factions { roman, } 
                 recruit "naval triremes"  0  requires factions { roman, } 
                 recruit "naval quinquiremes"  0  requires factions { roman, } 
-                trade_fleet 3 ;trade_base_income_bonus bonus 2
+                trade_fleet 3 ;trade_base_income_bonus bonus 3
             }
             construction  5 
             cost  3200 
@@ -1249,7 +1234,7 @@ building hinterland_farms
                 farms+4
             }
         }
-        farms+4 requires factions { carthaginian, egyptian, roman, } 
+        farms+4 requires factions { carthaginian, egyptian, roman, greek, } 
         {
             capability
             {
@@ -1299,7 +1284,7 @@ building hinterland_roads
                 highways
             }
         }
-        highways requires factions { roman, } 
+        highways requires factions { roman, greek, } 
         {
             capability
             {
@@ -1408,7 +1393,7 @@ building amphitheatres
         {
             capability
             {
-                recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
+                recruit "roman velite gladiator"  0  requires factions { roman, } 
                 stage_games 1 requires factions { roman,}
                 happiness_bonus bonus 1
             }
@@ -1424,8 +1409,8 @@ building amphitheatres
         {
             capability
             {
-                recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
-                recruit "roman samnite gladiator"  0  requires factions { romans_senate, romans_julii, } 
+                recruit "roman velite gladiator"  0  requires factions { roman, } 
+                recruit "roman samnite gladiator"  0  requires factions { roman, } 
                 stage_games 2 requires factions { roman,}
                 happiness_bonus bonus 2
             }
@@ -1441,9 +1426,9 @@ building amphitheatres
         {
             capability
             {
-                recruit "roman velite gladiator"  0  requires factions { romans_brutii, } 
-                recruit "roman samnite gladiator"  0  requires factions { romans_senate, romans_julii, } 
-                recruit "roman mirmillo gladiator"  0  requires factions { romans_scipii, } 
+                recruit "roman velite gladiator"  0  requires factions { roman, } 
+                recruit "roman samnite gladiator"  0  requires factions { roman, } 
+                recruit "roman mirmillo gladiator"  0  requires factions { roman, } 
                 stage_games 3 requires factions { roman,}
                 happiness_bonus bonus 3
             }
@@ -1467,6 +1452,7 @@ building theatres
         {
             capability
             {
+                recruit "greek bronze hoplite"  0  requires factions { greek, }
                 happiness_bonus bonus 1
             }
             construction  3 
@@ -1482,6 +1468,8 @@ building theatres
             capability
             {
                 happiness_bonus bonus 2
+				recruit "greek bronze hoplite"  0  requires factions { greek, }
+                recruit "greek bronze hypaspist"  0  requires factions { greek, }
             }
             construction  5 
             cost  3200 
@@ -1496,6 +1484,8 @@ building theatres
             capability
             {
                 happiness_bonus bonus 3
+				recruit "greek bronze hoplite"  1  requires factions { greek, }
+				recruit "greek bronze hypaspist"  1  requires factions { greek, }
             }
             construction  6 
             cost  6400 
@@ -2678,7 +2668,7 @@ building temple_of_leadership
 {
     levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon 
     {
-        temple_of_leadership_shrine requires factions { armenia, greek_cities, romans_julii, spain, } 
+        temple_of_leadership_shrine requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
         {
             capability
             {
@@ -2693,7 +2683,7 @@ building temple_of_leadership
                 temple_of_leadership_temple
             }
         }
-        temple_of_leadership_temple requires factions { armenia, greek_cities, romans_julii, spain, } 
+        temple_of_leadership_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
         {
             capability
             {
@@ -2708,7 +2698,7 @@ building temple_of_leadership
                 temple_of_leadership_large_temple
             }
         }
-        temple_of_leadership_large_temple requires factions { armenia, greek_cities, romans_julii, spain, } 
+        temple_of_leadership_large_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
         {
             capability
             {
@@ -2723,7 +2713,7 @@ building temple_of_leadership
                 temple_of_leadership_awesome_temple
             }
         }
-        temple_of_leadership_awesome_temple requires factions { armenia, greek_cities, romans_julii, spain, } 
+        temple_of_leadership_awesome_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
         {
             capability
             {
@@ -2739,7 +2729,7 @@ building temple_of_leadership
                 temple_of_leadership_pantheon
             }
         }
-        temple_of_leadership_pantheon requires factions { greek_cities, romans_julii, spain, } 
+        temple_of_leadership_pantheon requires factions { greek_cities, egyptian, romans_julii, spain, } 
         {
             capability
             {
@@ -2764,7 +2754,7 @@ building temple_of_love
 {
     levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon 
     {
-        temple_of_love_shrine requires factions { scythia, pontus, greek_cities, } 
+        temple_of_love_shrine requires factions { scythia, pontus, greek_cities, egyptian, } 
         {
             capability
             {
@@ -2779,7 +2769,7 @@ building temple_of_love
                 temple_of_love_temple
             }
         }
-        temple_of_love_temple requires factions { scythia, pontus, greek_cities, } 
+        temple_of_love_temple requires factions { scythia, pontus, greek_cities, egyptian, } 
         {
             capability
             {
@@ -2795,7 +2785,7 @@ building temple_of_love
                 temple_of_love_large_temple
             }
         }
-        temple_of_love_large_temple requires factions { scythia, pontus, greek_cities, } 
+        temple_of_love_large_temple requires factions { scythia, pontus, greek_cities, egyptian, } 
         {
             capability
             {
@@ -2812,7 +2802,7 @@ building temple_of_love
                 temple_of_love_awesome_temple
             }
         }
-        temple_of_love_awesome_temple requires factions { pontus, greek_cities, } 
+        temple_of_love_awesome_temple requires factions { pontus, greek_cities, egyptian, } 
         {
             capability
             {
@@ -2829,7 +2819,7 @@ building temple_of_love
                 temple_of_love_pantheon
             }
         }
-        temple_of_love_pantheon requires factions { greek_cities, } 
+        temple_of_love_pantheon requires factions { greek_cities, egyptian, } 
         {
             capability
             {
@@ -3025,7 +3015,7 @@ building temple_of_trade
 {
     levels temple_of_trade_shrine temple_of_trade_temple temple_of_trade_large_temple temple_of_trade_awesome_temple temple_of_trade_pantheon 
     {
-        temple_of_trade_shrine requires factions { britons, carthaginian, greek_cities, romans_brutii, } 
+        temple_of_trade_shrine requires factions { britons, carthaginian, greek_cities, egyptian, romans_brutii, } 
         {
             capability
             {
@@ -3040,7 +3030,7 @@ building temple_of_trade
                 temple_of_trade_temple
             }
         }
-        temple_of_trade_temple requires factions { britons, carthaginian, greek_cities, romans_brutii, } 
+        temple_of_trade_temple requires factions { britons, carthaginian, greek_cities, egyptian, romans_brutii, } 
         {
             capability
             {
@@ -3055,7 +3045,7 @@ building temple_of_trade
                 temple_of_trade_large_temple
             }
         }
-        temple_of_trade_large_temple requires factions { britons, carthaginian, greek_cities, romans_brutii, } 
+        temple_of_trade_large_temple requires factions { britons, carthaginian, greek_cities, egyptian, romans_brutii, } 
         {
             capability
             {
@@ -3070,7 +3060,7 @@ building temple_of_trade
                 temple_of_trade_awesome_temple
             }
         }
-        temple_of_trade_awesome_temple requires factions { carthaginian, greek_cities, romans_brutii, } 
+        temple_of_trade_awesome_temple requires factions { carthaginian, greek_cities, egyptian, romans_brutii, } 
         {
             capability
             {
@@ -3085,7 +3075,7 @@ building temple_of_trade
                 temple_of_trade_pantheon
             }
         }
-        temple_of_trade_pantheon requires factions { greek_cities, romans_brutii, } 
+        temple_of_trade_pantheon requires factions { greek_cities, egyptian, romans_brutii, } 
         {
             capability
             {
@@ -3110,7 +3100,7 @@ building temple_of_victory
 {
     levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon 
     {
-        temple_of_victory_shrine requires factions { britons, greek_cities, } 
+        temple_of_victory_shrine requires factions { britons, greek_cities, egyptian, } 
         {
             capability
             {
@@ -3125,7 +3115,7 @@ building temple_of_victory
                 temple_of_victory_temple
             }
         }
-        temple_of_victory_temple requires factions { britons, greek_cities, } 
+        temple_of_victory_temple requires factions { britons, greek_cities, egyptian, } 
         {
             capability
             {
@@ -3142,7 +3132,7 @@ building temple_of_victory
                 temple_of_victory_large_temple
             }
         }
-        temple_of_victory_large_temple requires factions { britons, greek_cities, } 
+        temple_of_victory_large_temple requires factions { britons, greek_cities, egyptian, } 
         {
             capability
             {
@@ -3159,7 +3149,7 @@ building temple_of_victory
                 temple_of_victory_awesome_temple
             }
         }
-        temple_of_victory_awesome_temple requires factions { greek_cities, } 
+        temple_of_victory_awesome_temple requires factions { greek_cities, egyptian, } 
         {
             capability
             {
@@ -3176,7 +3166,7 @@ building temple_of_victory
                 temple_of_victory_pantheon
             }
         }
-        temple_of_victory_pantheon requires factions { greek_cities, } 
+        temple_of_victory_pantheon requires factions { greek_cities, egyptian, } 
         {
             capability
             {
