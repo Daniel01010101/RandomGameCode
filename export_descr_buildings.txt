@@ -2668,7 +2668,7 @@ building temple_of_leadership
 {
     levels temple_of_leadership_shrine temple_of_leadership_temple temple_of_leadership_large_temple temple_of_leadership_awesome_temple temple_of_leadership_pantheon 
     {
-        temple_of_leadership_shrine requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
+        temple_of_leadership_shrine requires factions { armenia, greek, romans_julii, spain, } 
         {
             capability
             {
@@ -2683,7 +2683,7 @@ building temple_of_leadership
                 temple_of_leadership_temple
             }
         }
-        temple_of_leadership_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
+        temple_of_leadership_temple requires factions { armenia, greek, romans_julii, spain, } 
         {
             capability
             {
@@ -2698,7 +2698,7 @@ building temple_of_leadership
                 temple_of_leadership_large_temple
             }
         }
-        temple_of_leadership_large_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
+        temple_of_leadership_large_temple requires factions { armenia, greek, romans_julii, spain, } 
         {
             capability
             {
@@ -2713,7 +2713,7 @@ building temple_of_leadership
                 temple_of_leadership_awesome_temple
             }
         }
-        temple_of_leadership_awesome_temple requires factions { armenia, greek_cities, egyptian, romans_julii, spain, } 
+        temple_of_leadership_awesome_temple requires factions { armenia, greek, romans_julii, spain, } 
         {
             capability
             {
@@ -2729,7 +2729,7 @@ building temple_of_leadership
                 temple_of_leadership_pantheon
             }
         }
-        temple_of_leadership_pantheon requires factions { greek_cities, egyptian, romans_julii, spain, } 
+        temple_of_leadership_pantheon requires factions { greek, romans_julii, spain, } 
         {
             capability
             {
@@ -2754,7 +2754,7 @@ building temple_of_love
 {
     levels temple_of_love_shrine temple_of_love_temple temple_of_love_large_temple temple_of_love_awesome_temple temple_of_love_pantheon 
     {
-        temple_of_love_shrine requires factions { scythia, pontus, greek_cities, egyptian, } 
+        temple_of_love_shrine requires factions { scythia, pontus, greek, } 
         {
             capability
             {
@@ -2769,7 +2769,7 @@ building temple_of_love
                 temple_of_love_temple
             }
         }
-        temple_of_love_temple requires factions { scythia, pontus, greek_cities, egyptian, } 
+        temple_of_love_temple requires factions { scythia, pontus, greek, } 
         {
             capability
             {
@@ -2785,7 +2785,7 @@ building temple_of_love
                 temple_of_love_large_temple
             }
         }
-        temple_of_love_large_temple requires factions { scythia, pontus, greek_cities, egyptian, } 
+        temple_of_love_large_temple requires factions { scythia, pontus, greek, } 
         {
             capability
             {
@@ -2802,7 +2802,7 @@ building temple_of_love
                 temple_of_love_awesome_temple
             }
         }
-        temple_of_love_awesome_temple requires factions { pontus, greek_cities, egyptian, } 
+        temple_of_love_awesome_temple requires factions { pontus, greek, } 
         {
             capability
             {
@@ -2819,7 +2819,7 @@ building temple_of_love
                 temple_of_love_pantheon
             }
         }
-        temple_of_love_pantheon requires factions { greek_cities, egyptian, } 
+        temple_of_love_pantheon requires factions { greek, } 
         {
             capability
             {
@@ -3100,7 +3100,7 @@ building temple_of_victory
 {
     levels temple_of_victory_shrine temple_of_victory_temple temple_of_victory_large_temple temple_of_victory_awesome_temple temple_of_victory_pantheon 
     {
-        temple_of_victory_shrine requires factions { britons, greek_cities, egyptian, } 
+        temple_of_victory_shrine requires factions { britons, greek, } 
         {
             capability
             {
@@ -3115,7 +3115,7 @@ building temple_of_victory
                 temple_of_victory_temple
             }
         }
-        temple_of_victory_temple requires factions { britons, greek_cities, egyptian, } 
+        temple_of_victory_temple requires factions { britons, greek, } 
         {
             capability
             {
@@ -3132,7 +3132,7 @@ building temple_of_victory
                 temple_of_victory_large_temple
             }
         }
-        temple_of_victory_large_temple requires factions { britons, greek_cities, egyptian, } 
+        temple_of_victory_large_temple requires factions { britons, greek, } 
         {
             capability
             {
@@ -3149,7 +3149,7 @@ building temple_of_victory
                 temple_of_victory_awesome_temple
             }
         }
-        temple_of_victory_awesome_temple requires factions { greek_cities, egyptian, } 
+        temple_of_victory_awesome_temple requires factions { greek, } 
         {
             capability
             {
@@ -3166,7 +3166,7 @@ building temple_of_victory
                 temple_of_victory_pantheon
             }
         }
-        temple_of_victory_pantheon requires factions { greek_cities, egyptian, } 
+        temple_of_victory_pantheon requires factions { greek, } 
         {
             capability
             {
